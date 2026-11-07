@@ -1,0 +1,19 @@
+[project]
+name = "hr-assist-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Yashasvi Rajput", email = "tomarashi1102@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=2.3.0",
+]
+
+[project.scripts]
+hr-assist-project = "hr_assist_project:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
